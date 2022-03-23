@@ -1,0 +1,12 @@
+<?php
+//varaiaveis globais
+//$nome = $_GET['nome'];
+//$sexo = $_GET['sexo'];
+$nome = $_POST['nome'];
+$sexo = $_POST['sexo'];
+//$senha = $_POST['senha'];
+echo "<p><strong> Nome:".$nome."</strong></p>";
+echo "<p><strong> Sexo:".$sexo."?</strong></p>";
+echo "<p><strong> Senha:".$_GET['senha']."?</strong></p>";
+echo "<p><strong> ?:".$_REQUEST['nome']."?</strong></p>";
+?>
